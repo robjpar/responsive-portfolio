@@ -87,6 +87,7 @@ h3 {
 
 #name-logo:hover {
     background: #80d6b6;
+    
 }
 
 nav {
@@ -111,6 +112,7 @@ nav a:first-child {
 
 nav a:hover {
     color: #80d6b6;
+
 }
 
 #division-main {
@@ -123,7 +125,6 @@ nav a:hover {
     padding: 25px;
     margin: 0 0 30px;
     width: 100%;
-    /* max-width: 650px; */
     float: left;
     border: 1px solid #dddddd;
 
@@ -179,10 +180,12 @@ footer {
     line-height: 30px;
     padding: 15px;
     margin-bottom: 0;
+
 }
 
 .division-image-portfolio h2:hover {
     background: #80d6b6;
+
 }
 
 #form-contact {
@@ -211,6 +214,7 @@ textarea {
 textarea {
     height: 200px;
     font-size: large;
+
 }
 
 input[type=submit] { 
@@ -226,4 +230,49 @@ input[type=submit] {
 input[type=submit]:hover { 
     background: #80d6b6;
 
+}
+
+@media screen and (max-width: 980px) {
+    .division-general {
+        max-width: 748px;
+
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .division-general {
+        max-width: 620px;
+
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    #name-logo {
+        width: 100%;
+
+    }
+
+    #header-main {
+        position: static;
+
+    }
+
+    nav {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    #division-main {
+        padding-top: 0px;
+    
+    }
+
+    .division-image-portfolio {
+        width: 100%;
+
+    }
+    
 }
